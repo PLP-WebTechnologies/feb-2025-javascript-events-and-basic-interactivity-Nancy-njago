@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #ffdd57;
+}
+
+#feedback {
+  margin-top: 10px;
+  color: red;
+}
+
+.tab-content {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
