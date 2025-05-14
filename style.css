@@ -3,28 +3,20 @@ body {
   padding: 20px;
 }
 
-.hidden {
-  display: none;
-}
-
-button {
+#hoverBox {
   margin: 10px 0;
-  padding: 10px;
-  transition: background 0.3s;
-}
-
-button:hover {
-  background-color: #ffdd57;
-}
-
-#feedback {
-  margin-top: 10px;
-  color: red;
+  padding: 20px;
+  background-color: #eee;
+  width: 200px;
 }
 
 .tab-content {
   margin-top: 10px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  background-color: #f9f9f9;
+}
+
+.error 
+  color: red;
+}
+.success {
+  color: green;
 }
